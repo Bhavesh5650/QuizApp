@@ -46,3 +46,18 @@ The Queezy is a fun and interactive quiz application that allows users to test t
 
 - **Compatibility**:
   - Ensure compatibility with a range of Android versions and screen sizes.
+
+## Screenshots
+
+Here are some screenshots of the Password Manager App :
+
+<p>
+  <image src="https://github.com/user-attachments/assets/188ee8b3-cc95-4ac5-9aa8-3b68210f4daa" width="220px"/>
+  <image src="https://github.com/user-attachments/assets/43b2faba-3f85-4768-b8e1-ba32b4e32fba" width="220px"/>
+  <image src="https://github.com/user-attachments/assets/3b0eacae-1b20-49c8-86f0-111ebe5a1e04" width="220px"/>
+</p>
+<p>
+  <image src="https://github.com/user-attachments/assets/019cb3bf-e888-493e-a7c5-71520b435bb0" width="220px"/>
+  <image src="https://github.com/user-attachments/assets/6c23b1b6-0829-430a-ae20-0ea2beceb116" width="220px"/>
+  <image src="https://github.com/user-attachments/assets/a95eb19f-fe89-4c71-b302-eba136608f97" width="220px"/>
+</p>
