@@ -49,7 +49,7 @@ The Queezy is a fun and interactive quiz application that allows users to test t
 
 ## Screenshots
 
-Here are some screenshots of the Password Manager App :
+Here are some screenshots of the Queezy App :
 
 <p>
   <image src="https://github.com/user-attachments/assets/188ee8b3-cc95-4ac5-9aa8-3b68210f4daa" width="220px"/>
