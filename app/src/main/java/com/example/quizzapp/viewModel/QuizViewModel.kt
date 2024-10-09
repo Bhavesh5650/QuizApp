@@ -59,7 +59,7 @@ class QuizViewModel : ViewModel() {
             Log.d("Points", "changeQuiz: Incorrect is $incorrect")
         }
     }
-    fun checkResult() {
+    private fun checkResult() {
         if (questionData.value!![count.value!!].answer == selectedOption) {
             correct++;
         }

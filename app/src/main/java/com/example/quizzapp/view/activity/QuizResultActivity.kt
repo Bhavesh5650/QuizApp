@@ -1,10 +1,13 @@
 package com.example.quizzapp.view.activity
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.quizzapp.MainActivity
 import com.example.quizzapp.R
 import com.example.quizzapp.databinding.ActivityQuizResultBinding
 
@@ -14,7 +17,6 @@ class QuizResultActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         binding = ActivityQuizResultBinding.inflate(layoutInflater)
         setContentView(binding.root)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -24,9 +26,10 @@ class QuizResultActivity : AppCompatActivity() {
         }
 
         getResultIntent()
-
+        restartQuiz()
     }
 
+    @SuppressLint("SetTextI18n")
     private fun getResultIntent(){
 
         val correct = intent.getIntExtra("correct",0)
@@ -34,5 +37,16 @@ class QuizResultActivity : AppCompatActivity() {
 
         binding.setCorrectAnswer.text = correct.toString()
         binding.setIncorrectAnswer.text = incorrect.toString()
+        binding.setScore.text = "${correct*10} Points"
     }
+
+    private fun restartQuiz()
+    {
+        binding.restartBtn.setOnClickListener {
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
+
 }

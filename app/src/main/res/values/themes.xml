@@ -4,6 +4,7 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="android:fontFamily">@font/sans_regular</item>
+        <item name="android:statusBarColor">@color/dark_orchid</item>
     </style>
 
     <style name="Theme.QuizzApp" parent="Base.Theme.QuizzApp" />

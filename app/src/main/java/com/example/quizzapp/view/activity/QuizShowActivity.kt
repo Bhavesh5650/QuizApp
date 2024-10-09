@@ -1,5 +1,6 @@
 package com.example.quizzapp.view.activity
 
+import android.animation.ObjectAnimator
 import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Intent
@@ -42,14 +43,16 @@ class QuizShowActivity : AppCompatActivity() {
     {
         timer = object : CountDownTimer(30000, 1000) {
 
-            @SuppressLint("SetTextI18n")
+            @SuppressLint("SetTextI18n", "ObjectAnimatorBinding")
             override fun onTick(millisUntilFinished: Long) {
                 binding.progressView.progress = (millisUntilFinished / 1000).toInt();
                 binding.setCountDownTxt.text = "${millisUntilFinished / 1000}"
             }
+            @SuppressLint("SetTextI18n")
             override fun onFinish() {
                 viewModel.selectedOption = null;
                 viewModel.changeQuiz()
+                binding.setQuizCount.text = "${viewModel.count.value!!+1}"
                 timer.cancel()
                 timer.start()
             }
@@ -161,6 +164,7 @@ class QuizShowActivity : AppCompatActivity() {
                     intent.putExtra("correct",viewModel.correct)
                     intent.putExtra("incorrect",viewModel.incorrect)
                     startActivity(intent)
+                    finish()
                 }
             }
         }
