@@ -1,4 +1,4 @@
-    package com.example.quizzapp
+package com.example.quizzapp
 
 import android.content.Intent
 import android.os.Bundle
