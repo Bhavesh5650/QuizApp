@@ -17,8 +17,6 @@ The Queezy is a fun and interactive quiz application that allows users to test t
   - Provide feedback on user performance at the end of the quiz, including the number of correct answers, wrong answers, and overall score.
 
 ### User Interface
-- **Navigation**:
-  - Bottom Navigation Bar with sections for Home, Categories, Leaderboard, and Settings.
 
 - **Home Screen**:
   - Display a welcome message and allow users to start a new quiz.
@@ -32,8 +30,6 @@ The Queezy is a fun and interactive quiz application that allows users to test t
 - **Result Screen**:
   - Display user performance and score at the end of the quiz.
 
-- **Leaderboard**:
-  - Display top scores of users.
 
 ## Non-Functional Requirements
 - **Performance**:
