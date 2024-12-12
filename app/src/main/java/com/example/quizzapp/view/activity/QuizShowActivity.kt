@@ -63,7 +63,7 @@ class QuizShowActivity : AppCompatActivity() {
     private fun observeData()
     {
         viewModel.questionData.observe(this){
-            binding.setQuizQuestion.text = it!![0].question
+            binding.setQuizQuestion.text = it[0].question
             binding.optionOneText.text = it[0].optionList?.get(0)
             binding.optionTwoText.text = it[0].optionList?.get(1)
             binding.optionThreeText.text = it[0].optionList?.get(2)

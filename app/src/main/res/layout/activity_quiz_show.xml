@@ -73,9 +73,14 @@
             android:fontFamily="@font/sans_black"
             android:textSize="24sp"/>
 
-        <ProgressBar
+        <com.google.android.material.progressindicator.CircularProgressIndicator
             android:progress="0"
+            android:max="30"
+            app:trackThickness="8dp"
             android:id="@+id/progressView"
+            android:layout_gravity="center"
+            android:outlineProvider="paddedBounds"
+            app:indicatorSize="100dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
     </FrameLayout>
