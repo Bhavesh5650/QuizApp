@@ -53,7 +53,7 @@ Here are some screenshots of the Queezy App :
   <image src="https://github.com/user-attachments/assets/3b0eacae-1b20-49c8-86f0-111ebe5a1e04" width="220px"/>
 </p>
 <p>
-  <image src="https://github.com/user-attachments/assets/019cb3bf-e888-493e-a7c5-71520b435bb0" width="220px"/>
-  <image src="https://github.com/user-attachments/assets/6c23b1b6-0829-430a-ae20-0ea2beceb116" width="220px"/>
+  <image src="https://github.com/user-attachments/assets/2affdb79-5ef3-4c60-ab2d-e0986380ab5e" width="220px"/>
+  <image src="https://github.com/user-attachments/assets/0710fbe2-453d-4379-b216-3a518944c1af" width="220px"/>
   <image src="https://github.com/user-attachments/assets/a95eb19f-fe89-4c71-b302-eba136608f97" width="220px"/>
 </p>
